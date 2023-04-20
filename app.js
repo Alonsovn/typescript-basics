@@ -1,8 +1,6 @@
 "use strict";
-const msg = "Hello World!";
-const hero = {
-    name: "Ironman",
-    age: 45,
-};
-hero.age = 50;
-console.log(hero.age + 1);
+// Function anonima auto-invocada
+(function () {
+    var a = 10;
+    console.log(a);
+})();
