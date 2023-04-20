@@ -1,11 +1,11 @@
-download ts
+download ts  
 https://www.typescriptlang.org/download
 
-generate js from ts. On terminal run
+generate js from ts. On terminal run  
 tsc app.ts
 
-create TSconfig.json
+create TSconfig.json  
 tsc --init
 
-observer mode
-tsc -w
+observer mode  
+ tsc -w
