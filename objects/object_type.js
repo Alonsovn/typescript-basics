@@ -9,6 +9,9 @@
         name: "Clark Kent",
         age: 32,
         powers: ["Super velocidad"],
+        getName: function () {
+            return this.name;
+        },
     };
     console.log(flash);
     console.log(superman);
