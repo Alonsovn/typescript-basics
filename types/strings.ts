@@ -1,7 +1,7 @@
 (() => {
-  const batman = "Batman";
-  const linternaVerde = "Linterna Verde";
-  const volcanoNegro = `Héroe Volcan Negro`;
+  const batman: string = "Batman";
+  const linternaVerde: string = "Linterna Verde";
+  const volcanoNegro: string = `Héroe Volcan Negro`;
 
   console.log(`I'm ${batman}`);
 

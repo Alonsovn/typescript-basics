@@ -1,11 +1,11 @@
 (() => {
-  const hero = "Flash";
+  const hero: string = "Flash";
 
-  function returnName() {
+  function returnName(): string {
     return hero;
   }
 
-  const activateBatiSignal = () => {
+  const activateBatiSignal = (): string => {
     return "Batisignal active!";
   };
 

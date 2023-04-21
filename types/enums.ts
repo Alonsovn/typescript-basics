@@ -5,7 +5,7 @@
     max = 10,
   }
 
-  let currentAudio = AudioLevel.medium;
+  let currentAudio: AudioLevel = AudioLevel.medium;
 
   console.log(currentAudio);
 })();

@@ -1,5 +1,5 @@
 (() => {
-  let isSuperman;
+  let isSuperman: boolean;
 
   isSuperman = true;
 
