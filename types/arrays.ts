@@ -7,4 +7,5 @@
   villians.forEach((v) => console.log(v.toLowerCase()));
 
   console.log(numbers);
+  numbers.forEach((n) => console.log(n));
 })();

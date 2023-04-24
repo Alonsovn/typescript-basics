@@ -7,12 +7,15 @@
     disparar?: () => void;
   };
 
+  // comment ..
   let batimovil: Vehiculo = {
     carroceria: "Negra",
     modelo: "6x6",
     antibalas: true,
     pasajeros: 4,
   };
+
+  console.log("Log 1");
 
   let bumblebee: Vehiculo = {
     carroceria: "Amarillo con Negro",
@@ -58,6 +61,8 @@
     estatura: 1.78,
   };
 
+  console.log("Log 2");
+
   type Apocalipsis = {
     lider: boolean;
     miembros: string[];
@@ -72,4 +77,6 @@
 
   mystique = charles;
   mystique = apocalipsis;
+
+  console.log("Log 3");
 })();
