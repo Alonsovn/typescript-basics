@@ -26,4 +26,16 @@
   };
 
   printAvenger(avengers);
+
+  // Array
+  const avengerArr: string[] = ["Captin America", "Ironman", "Hulk"];
+  const avengerTuple: [string, boolean, number] = [
+    "Captin America",
+    true,
+    13.42,
+  ];
+
+  const [cap, ironman] = avengerArr;
+
+  console.log(ironman, cap);
 })();

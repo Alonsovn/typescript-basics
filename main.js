@@ -26,6 +26,14 @@ var __rest = (this && this.__rest) || function (s, e) {
         console.log(restArgs);
     };
     printAvenger(avengers);
+    const avengerArr = ["Captin America", "Ironman", "Hulk"];
+    const avengerTuple = [
+        "Captin America",
+        true,
+        13.42,
+    ];
+    const [cap, ironman] = avengerArr;
+    console.log(ironman, cap);
 })();
 (() => {
     const name = "Alonso";
