@@ -7,8 +7,15 @@
       private team: string,
       public realName?: string
     ) {}
+
+    public bio() {
+      return `${this.name} ( ${this.team} )`;
+    }
   }
 
-  const antman = new Avenger("Antman", "Captain", "Scoot Lang");
+  const antman: Avenger = new Avenger("Antman", "Captain", "Scoot Lang");
   console.log(antman);
+
+  console.log(antman.bio());
 })();
+
