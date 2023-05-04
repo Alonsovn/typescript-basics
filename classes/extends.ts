@@ -15,6 +15,17 @@
       console.log("Constructor Xmen");
     }
 
+    get fullName() {
+      return `${this.name} - ${this.realName}`;
+    }
+
+    set fullName(name: string) {
+      if (name.length < 3) {
+        throw new Error("The name must containst more than 3 letters");
+      }
+      this.name = name;
+    }
+
     getfullNamefromXmen() {
       console.log("Get full name from X men");
 
@@ -23,6 +34,8 @@
   }
 
   const wolverine = new Xmen("Wolverine", "Logan", true);
+  wolverine.fullName = "Alonso";
+  console.log(wolverine.fullName);
 
   console.log(wolverine);
   wolverine.getfullNamefromXmen();

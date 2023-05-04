@@ -32,12 +32,23 @@
             this.isMutant = isMutant;
             console.log("Constructor Xmen");
         }
+        get fullName() {
+            return `${this.name} - ${this.realName}`;
+        }
+        set fullName(name) {
+            if (name.length < 3) {
+                throw new Error("The name must containst more than 3 letters");
+            }
+            this.name = name;
+        }
         getfullNamefromXmen() {
             console.log("Get full name from X men");
             console.log(super.getFullName());
         }
     }
     const wolverine = new Xmen("Wolverine", "Logan", true);
+    wolverine.fullName = "Alonso";
+    console.log(wolverine.fullName);
     console.log(wolverine);
     wolverine.getfullNamefromXmen();
 })();
