@@ -38,5 +38,6 @@
   console.log(wolverine.fullName);
 
   console.log(wolverine);
-  wolverine.getfullNamefromXmen();
+
+  //   wolverine.getfullNamefromXmen();
 })();

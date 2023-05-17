@@ -14,8 +14,8 @@
   }
 
   const antman: Avenger = new Avenger("Antman", "Captain", "Scoot Lang");
-  console.log(antman);
+  // console.log(antman);
 
-  console.log(antman.bio());
+  // console.log(antman.bio());
 })();
 
