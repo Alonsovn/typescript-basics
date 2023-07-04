@@ -25,6 +25,9 @@
             zip: "ADFG 23",
             city: "Heredia",
         },
+        getFullAddres(id) {
+            return this.address.city;
+        },
     };
     const client2 = {
         name: "Maria",
@@ -33,6 +36,9 @@
             id: 32,
             zip: "HEGB 43",
             city: "Cartago",
+        },
+        getFullAddres(id) {
+            return this.address.city;
         },
     };
 })();
