@@ -17,6 +17,14 @@
     console.log(superman);
 })();
 (() => {
+    class Mutant {
+        mutanPower(id) {
+            return this.name + "" + this.realName;
+        }
+    }
+    const mutant = new Mutant();
+})();
+(() => {
     const client1 = {
         name: "alonso",
         age: 29,
